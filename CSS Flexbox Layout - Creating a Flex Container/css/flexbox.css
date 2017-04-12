@@ -1,0 +1,10 @@
+/* =================================
+  Flexbox
+==================================== */
+
+
+/*establishing flex  in our layout by setting parent-container div displayed to flex*/
+.container {
+  display: flex;
+  height: 300px;
+}

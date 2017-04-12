@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  /*We are going center the div id wrapper*/
+  max-width: 940px;
+  /* a unit doesnt matter if's px or %*/
+  margin: 0 auto;
+  padding: 0 10%;
+  background: orange;
+}

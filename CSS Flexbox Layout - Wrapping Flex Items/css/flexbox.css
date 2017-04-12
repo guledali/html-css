@@ -1,0 +1,14 @@
+/* =================================
+  Flexbox
+==================================== */
+
+/*The CSS flex-wrap property specifies whether flex items are forced into a single line or can be wrapped onto multiple lines. If wrapping is allowed, this property also enables you to control the direction in which lines are stacked.*/
+
+/*The flex-direction CSS property specifies how flex items are placed in the flex container defining the main axis and the direction (normal or reversed).*/
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 280px;
+}

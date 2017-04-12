@@ -1,0 +1,23 @@
+/* =================================
+  Flexbox
+==================================== */
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+/*default order of all flex-item(starting point) are 0 give it -1 or 1 rearrange them */
+/*.item-1 {
+	order: 1;
+}*/
+
+.item-5 {
+	order: -1;
+}
+
+.item-1 {
+	order: -2;
+}

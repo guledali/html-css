@@ -1,0 +1,21 @@
+/* =================================
+  Flexbox
+==================================== */
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*You can only do 1 and 0 with flex grow, 0 is the default value. Item means all items equally spaced*/
+.item {
+	flex-grow: 1;
+}
+/* Working with the specific item you can apply different numbers*/
+.item-3 {
+	flex-grow: 3;
+}
+
+.item-1 {
+	flex-grow: 4;
+}
